@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>2017 AIS Merck Challenge</title>
+        <link rel="icon" type="image/png" href="favicon.png" />
+		
+		<!-- vendor stylesheets -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!--vendor sripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		
+		<!-- custom stylesheets -->
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+        <!--<header id="header">
+            <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="/" class="navbar-brand"><img src="logo.png" alt="BYU Logo" class="img-responsive text-center" id="nav-img" /></a>
+                        </div>            
+                        <div class="collapse navbar-collapse" id="navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#undiagnosed_death_rate">Undiagnosed & Death Rate</a></li>
+                                <li><a href="#gdp_undiagnosed_rate">GDP & Undiagnosed Rate</a></li>
+                                <li><a href="">Solution</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+        </header>-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+                    <div class="intro_container">
+                        <img src="logo.png" alt="BYU Logo" class="img-responsive text-center" id="nav_img" />
+                        <div class="text-center">
+                            <h1>2017 AIS Merck Challenge</h1>
+                            <h4>Brigham Young University</h4>
+                            <p>Andrew Wiser  |  Greggory Peck  |  Misha Milovidov  |  Shaun Quinton</p>                                                
+                        </div>
+                    </div>
+					
+                    <div class="section" id="undiagnosed_death_rate">
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6 top_border"></div>
+                            <div class="col-md-3"></div>
+                        </div>
+                        <h2 class="text-center section_title">Undiagnosed & Death Rate</h2>
+                        <h4 class="explanation_text">The following dashboard shows the percentage of diabetes patients who are undiagnosed and the diabetes death rate percentage by country. The graph below the maps shows the correlation between the two rates. You may select countries on the map or points on the chart for a more specific view.</h4>
+                        <div class="well">
+                            <!-- tableau dashboard - undiagnosed & death rate -->
+                            <div class='tableauPlaceholder' id='viz1488412435502' style='position: relative'>
+                                <noscript>
+                                    <a href='#'>
+                                        <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;XQ&#47;XQFC5J5F2&#47;1_rss.png' style='border: none' />
+                                    </a>
+                                </noscript>
+                                <object class='tableauViz'  style='display:none;'>
+                                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                    <param name='path' value='shared&#47;XQFC5J5F2' />
+                                    <param name='toolbar' value='yes' />
+                                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;XQ&#47;XQFC5J5F2&#47;1.png' />
+                                    <param name='animate_transition' value='yes' />
+                                    <param name='display_static_image' value='yes' />
+                                    <param name='display_spinner' value='yes' />
+                                    <param name='display_overlay' value='yes' />
+                                    <param name='display_count' value='yes' />
+                                </object>
+                            </div>
+                            <script type='text/javascript'>                    
+                                var divElement = document.getElementById('viz1488412435502');                    
+                                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                                var scriptElement = document.createElement('script');                    
+                                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                            </script>
+                        </div>
+                    </div>
+					
+                    <div class="section" id="gdp_undiagnosed_rate">
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6 top_border"></div>
+                            <div class="col-md-3"></div>
+                        </div>
+                        <h2 class="text-center section_title">GDP & Undiagnosed Rate</h2>
+                        <h4 class="explanation_text">The following dashboard shows the GDP per capita for each country. The graph below the maps shows the correlation between GDP per capita and diabetes patients who are undiagnosed. The chart on the right shows GDP per capita and a 10-year average of GDP change. You may select countries on the map, points on the chart, or country in the table for a more specific view.</h4>
+                        <div class="well">
+                            <!-- tableau dashboard - gdp & undiagnosed rate -->
+                            <div class='tableauPlaceholder' id='viz1488412490756' style='position: relative'>
+                                <noscript>
+                                    <a href='#'>
+                                        <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FM&#47;FM99M2N97&#47;1_rss.png' style='border: none' />
+                                    </a>
+                                </noscript>
+                                <object class='tableauViz'  style='display:none;'>
+                                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                    <param name='path' value='shared&#47;FM99M2N97' />
+                                    <param name='toolbar' value='yes' />
+                                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FM&#47;FM99M2N97&#47;1.png' />
+                                    <param name='animate_transition' value='yes' />
+                                    <param name='display_static_image' value='yes' />
+                                    <param name='display_spinner' value='yes' />
+                                    <param name='display_overlay' value='yes' />
+                                    <param name='display_count' value='yes' />
+                                </object>
+                            </div>
+                            <script type='text/javascript'>                    
+                                var divElement = document.getElementById('viz1488412490756');                    
+                                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                                var scriptElement = document.createElement('script');                    
+                                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                            </script>
+                        </div>
+                    </div>
+
+                    <div class="section" id="gdp_undiagnosed_rate">
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6 top_border"></div>
+                            <div class="col-md-3"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <h2 class="text-center section_title">Recommendation</h2>
+                                <h4 class="explanation_text">Developing countries have a drastically higher undiagnosed and death rates compared to developed countries. We recommend that Merck Medical develop an inexpensive and accurate pre-screening solution for individuals who feel they might have diabetes. A pre-screening solution would be particularly effective in developing countries where finding a doctor or hospital to diagnose diabetes is either financially or logistically impractical.</h4>
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+                    </div>
+
+                    <div class="section" id="gdp_undiagnosed_rate">
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6 top_border"></div>
+                            <div class="col-md-3"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <h2 class="text-center section_title">Conclusion</h2>
+                                <h4 class="explanation_text">Developing countries lack the medical infrastructure necessary to properly diagnose, treat, and prevent diabetes. Inadequate medical infrastructure has caused an alarmingly high rate of undiagnosed diabetes in developing countries, which currently account for 80% of diabetes cases globally.  By developing an inexpensive product that can screen for diabetes, we can begin to properly educate and treat diabetic individuals and lower diabetic related deaths across the globe.</h4>
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="section" id="gdp_undiagnosed_rate">
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6 top_border"></div>
+                            <div class="col-md-3"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                            	<p class="text-center" style="margin-top:35px;">*All diabetes data comes from IDF Diabetes Atlas 2015 Study</p>
+                            </div>
+                            <div class="col-md-3"></div>
+                        </div>
+                    </div>
+
+				</div>
+			</div>
+		</div>
+        <footer>
+            <div id="footer_text">
+                <p id="copyright">&copy; <?php echo date("Y"); ?> - 2017 AIS Merck Challenge</p>
+            </div>
+        </footer>
+		
+		<!-- vendor scripts -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>
